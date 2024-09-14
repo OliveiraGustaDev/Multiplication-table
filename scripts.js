@@ -48,7 +48,7 @@ const createTable = (number, multiplicator) => {
 
     multiplicationTitle.innerText = number;
 
-    myTitle.innerHTML = "Tabuada Gerado com Sucesso!";
+    myTitle.innerHTML = "Tabuada Gerada com Sucesso!";
   }
 };
 
