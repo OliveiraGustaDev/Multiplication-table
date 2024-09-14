@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica;
+}
+
+body {
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #161f70 0%, #3da6ec 98%);
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+#multiplication-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 300px;
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  color: #161f70;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  margin: 0 1rem;
+}
+
+.form-control label {
+  margin-bottom: 0.6rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.form-control input {
+  margin-bottom: 1rem;
+  flex: 1;
+  padding: 0.6rem 0.4rem;
+  border: 3px solid #11a2db;
+  width: 50px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  color: #161f70;
+}
+
+#multiplication-form [type="submit"] {
+  max-height: 50px;
+  padding: 0.6rem 1.2rem;
+  width: 100px;
+  border: 3px solid #56c7f3;
+  border-radius: 5px;
+  background-color: #11a2db;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+}
+
+#multiplication-form [type="submit"]:hover {
+  background-color: #56c7f3;
+}
+
+#multiplication-operations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  margin: 1rem auto;
+  padding: 2rem 1rem;
+  background-color: #fff;
+  color: #161f70;
+  font-weight: bold;
+  border-radius: 1rem;
+}
+
+#multiplication-operations .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #161f70;
+  border-bottom: none;
+  padding: 0.4rem;
+  width: 180px;
+}
+
+#multiplication-operations .row:last-child {
+  border-bottom: 1px solid #161f70;
+}
+
+#multiplication-operations .result {
+  margin-left: 0.4rem;
+}
+
+#clean {
+  max-height: 50px;
+  padding: 0.6rem 1.2rem;
+  width: 100px;
+  border: 3px solid #56c7f3;
+  border-radius: 5px;
+  background-color: #11a2db;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+#clean:hover {
+  background-color: #56c7f3;
+}
