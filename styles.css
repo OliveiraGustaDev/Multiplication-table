@@ -118,3 +118,31 @@ h2 {
 #clean:hover {
   background-color: #56c7f3;
 }
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-container p {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+}
+
+.footer-container p strong {
+  color: #ffcc00; /* Destaque no nome */
+}
+
