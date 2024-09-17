@@ -119,4 +119,3 @@ darkBtn.addEventListener("click", () => {
     body.classList.remove("clear");
   }
 });
-
